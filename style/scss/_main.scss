@@ -1,0 +1,18 @@
+.lockBody {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.main {
+  margin: 0 auto;
+  padding-top: 2em;
+
+  max-width: 80em;
+  min-height: 110vh;
+
+  &__paragraph {
+    margin-bottom: 2em;
+  }
+}
